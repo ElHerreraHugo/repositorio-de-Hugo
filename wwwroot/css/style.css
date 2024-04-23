@@ -1,0 +1,215 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+    body{
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+        background-image: url(../image/img-.jpg);
+        background-position: center; 
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        
+    }
+
+.contenedor{
+    position: relative;
+    width: 400px;
+    border: 2px solid rgba(255, 255, 255, .6);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    height: 450px;
+    margin-left: 0%;
+    margin: auto;
+   }
+
+
+.contenedor h2{
+font-size: 2.3rem;
+color: #fff;
+text-align: center;
+
+}
+
+.input-contenedor{
+    position: relative;
+    margin: 30px 0;
+    width: 300px;
+    border-bottom: 2px solid #fff;
+    margin-left: 12%;
+}
+
+.input-contenedor label{
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    transform: translateY(-50);
+    color: #fff;
+    font-size: lrem;
+    pointer-events: none;
+    transition: .6s;
+    font-family: bold;
+}
+input:focus- label,
+input:valid- label{
+    top: -5px;
+}
+
+.input-contenedor input{
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: lres;
+    padding: - 35 0 5px;
+    color: #fff;
+}
+
+.input-contenedor i{
+    position: absolute;
+    color: #fff;
+    font-size: 1.6res;
+    top: 19px;
+    right: 8px;
+
+}
+
+.olvidar{
+    margin: -15 0 15px;
+    font-size: .9on;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    
+}
+
+.olvidar label imput{
+    margin: 3px;
+    
+}
+ .olvidar label a{
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 9em;
+ }
+
+
+
+.olvidar label a:hover{
+    text-decoration: underline;
+}
+
+
+button{
+    width: 80%;
+    height: 45px;
+    border-radius: 40px;
+    background: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-size: lres;
+    transition: .4s;
+    margin-left: 10%;
+    margin: 6px 35px;
+
+}
+
+button:hover{
+    opacity: .9;
+
+}
+
+.registrar p a {
+    text-decoration: nome;
+    color: #fff;
+    font-weight: bold;
+    transition: 3s;
+    
+}
+
+.registrar p a:hover{
+    text-decoration: underline;
+}
+
+.container-fluid a{
+    color: #fff;
+    font-size: 30px;
+}
+
+.dropdown-menu a{
+    color: blue;
+    font-size: 15px;
+}
+
+.nav-item a{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
